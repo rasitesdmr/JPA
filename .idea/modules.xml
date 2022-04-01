@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Configuration/Configuration.iml" filepath="$PROJECT_DIR$/Configuration/Configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CraeteTable/CraeteTable.iml" filepath="$PROJECT_DIR$/CraeteTable/CraeteTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deneme/Deneme.iml" filepath="$PROJECT_DIR$/Deneme/Deneme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Embeddable/Embeddable.iml" filepath="$PROJECT_DIR$/Embeddable/Embeddable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Entity/Entity.iml" filepath="$PROJECT_DIR$/Entity/Entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EntityManager/EntityManager.iml" filepath="$PROJECT_DIR$/EntityManager/EntityManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Find/Find.iml" filepath="$PROJECT_DIR$/Find/Find.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeneratedValue/GeneratedValue.iml" filepath="$PROJECT_DIR$/GeneratedValue/GeneratedValue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JPA.iml" filepath="$PROJECT_DIR$/.idea/JPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persist/Persist.iml" filepath="$PROJECT_DIR$/Persist/Persist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpdateMerge/UpdateMerge.iml" filepath="$PROJECT_DIR$/UpdateMerge/UpdateMerge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uygulama/Uygulama.iml" filepath="$PROJECT_DIR$/Uygulama/Uygulama.iml" />
+    </modules>
+  </component>
+</project>

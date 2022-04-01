@@ -1,0 +1,8 @@
+# Project exclude paths
+/CraeteTable/target/
+/Embeddable/target/
+/Find/target/
+/GeneratedValue/target/
+/Persist/target/
+/UpdateMerge/target/
+/Uygulama/target/

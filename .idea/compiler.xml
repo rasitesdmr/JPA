@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GeneratedValue" />
+        <module name="Entity" />
+        <module name="EntityManager" />
+        <module name="Configuration" />
+        <module name="CraeteTable" />
+        <module name="Uygulama" />
+        <module name="Find" />
+        <module name="UpdateMerge" />
+        <module name="Deneme" />
+        <module name="Persist" />
+        <module name="Embeddable" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Configuration" target="17" />
+      <module name="CraeteTable" target="17" />
+      <module name="Deneme" target="17" />
+      <module name="Embeddable" target="17" />
+      <module name="Entity" target="17" />
+      <module name="EntityManager" target="17" />
+      <module name="Find" target="17" />
+      <module name="GeneratedValue" target="17" />
+      <module name="Persist" target="17" />
+      <module name="UpdateMerge" target="17" />
+      <module name="Uygulama" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

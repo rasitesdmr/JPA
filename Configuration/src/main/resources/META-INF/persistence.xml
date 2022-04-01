@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="persistence-unit-mysql" transaction-type="RESOURCE_LOCAL">
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="*******"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+
+            <!-- create tablo herzaman yeniden oluşturulsun demek
+                 update toblo oluşturulmasın içine sadece veri eklensin -->
+
+            <!-- <property name="hibernate.hbm2ddl.auto" value="update"/>  -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+
+            <!-- veri tabanıyla alışverişin thread ile olacak -->
+            <property name="current_session_context_class" value="thread"/>
+
+            <!-- Toblo oluşturulurken console nasıl bir sorgu gönderilmiş veritabanına bunları inceler  -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+
+
+
+            <!-- C3P0 C3P0ConnectionProvider -->
+            <property name="hibernate.connection.provider_class"
+                      value="org.hibernate.connection.C3P0ConnectionProvider"/>
+
+            <property name="hibernate.c3p0.max_size" value="20"/>
+            <property name="hibernate.c3p0.min_size" value="1"/>
+
+            <!-- Bağlantımızı her seferinde 20 defa artırıyor -->
+            <property name="hibernate.c3p0.acquire_increment" value="20"/>
+
+            <!--Bağlantıların kullanılabilirmi kontrol eder -->
+            <property name="hibernate.c3p0.idle_test_period" value="3000"/>
+
+            <!-- Veritabanına gönderilen sorguların ön belleğe alınma sayısı  -->
+            <property name="hibernate.c3p0.max_statements" value="50"/>
+
+            <!-- Açıkta olan bağlantıları sonlandırıyor -->
+            <property name="hibernate.c3p0.timeout" value="300"/>
+
+        </properties>
+
+    </persistence-unit>
+</persistence>
